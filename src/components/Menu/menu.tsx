@@ -1,5 +1,5 @@
-import logo from "assets/logo.png";
-import styles from "./Menu.module.css"
+import styles from "./Menu.module.css";
+import logo from "assets/images/logo.png";
 
 export default function Menu() {
   return (

@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+
+.container__texto {
+  max-width: 585px;
+}
+
+.subtitulo {
+  font-size: 22px;
+  font-weight: 400;
+  opacity: 50%;
+}
+
+.titulo {
+  font-size: 82px;
+  margin: 0;
+}
+
+.paragrafo {
+  font-weight: 400;
+  opacity: 50%;
+  max-width: 80%;
+}
+
+.container__input {
+  padding: 15px 0;
+}
+
+.input__email,
+.btn {
+  box-shadow: 10px 10px 30px 0px #0000000f;
+  padding: 15px;
+  border: none;
+  border-radius: none;
+  font-size: 16px;
+}
+
+.input__email {
+  width: 60%;
+}
+
+.input__email:focus {
+  outline: 2px solid #4caf50; /* Define a cor e a largura do contorno */
+  outline-offset: -2px; /* Define a distância entre o contorno e o elemento */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Adiciona um efeito de sombra ao redor do input */
+}
+
+.btn {
+  background-color: #ffbf47;
+  color: #ffffff;
+  width: 30%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e6a638;
+}
+
+.container__imagem {
+  position: absolute;
+  background-image: url("assets/images/arvore.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+  right: 200px;
+  top: -140px;
+  width: 50%;
+}

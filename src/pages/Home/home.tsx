@@ -1,5 +1,6 @@
 import AssinaturaNewsletter from "components/AssinaturaNewsletter/assinaturaNewsletter";
 import Menu from "components/Menu/menu";
+import Ofertas from "components/Ofertas/ofertas";
 import Planta from "components/Planta/planta";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
                   <Menu />
                   <AssinaturaNewsletter />
                   <Planta />
+                  <Ofertas />
             </main>
       )
 }

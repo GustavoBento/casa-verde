@@ -1,13 +1,14 @@
 .container {
   display: flex;
   justify-content: end;
-  margin: 14em 0;
+  margin: 14em 0 4em;
 }
 
 .conteudo {
-  padding: 25px;
   background-color: #ffffff;
+  padding-left: 25px;
   min-width: 300px;
+  max-height: 440px;
   box-shadow: 10px 10px 30px 0px #0000000f;
 }
 

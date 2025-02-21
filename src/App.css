@@ -6,17 +6,12 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", serif;
-  background-color: rgba(196, 196, 196, 0.2);
-  background-image: url("assets/images/fundo-amarelo.png");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: 50%;
   color: #202020;
 }
 
-.App {
+main {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .titulo {
@@ -26,4 +21,14 @@ body {
 .subtitulo {
   font-weight: 400;
   opacity: 50%;
+}
+
+@media (min-width: 920px) {
+  body {
+    background-color: rgba(196, 196, 196, 0.2);
+    background-image: url("assets/images/fundo-amarelo.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50%;
+  }
 }

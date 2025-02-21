@@ -61,11 +61,11 @@
 
 .container__imagem {
   position: absolute;
-  background-image: url("assets/images/arvore.png");
+  background-image: url("assets/images/arvore-fundo.png");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100vh;
-  right: 200px;
-  top: -140px;
+  right: 40px;
+  top: -50px;
   width: 50%;
 }

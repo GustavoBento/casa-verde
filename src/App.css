@@ -22,3 +22,8 @@ body {
 .titulo {
   font-family: "Elsie Swash Caps", serif;
 }
+
+.subtitulo {
+  font-weight: 400;
+  opacity: 50%;
+}

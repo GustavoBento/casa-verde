@@ -4,7 +4,7 @@ export default function AssinaturaNewsletter() {
   return (
     <section className={styles.container}>
       <div className={styles.container__texto}>
-        <h4 className={styles.subtitulo}>Sua casa com as</h4>
+        <h4 className={`subtitulo ${styles.subtitulo}`}>Sua casa com as</h4>
         <h2 className={`titulo ${styles.titulo}`}>melhores plantas</h2>
         <p className={styles.paragrafo}>
           Encontre aqui uma vasta seleção de plantas para decorar a sua casa e

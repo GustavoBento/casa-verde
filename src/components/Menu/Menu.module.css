@@ -34,4 +34,8 @@
   .cabecalho {
     background-color: transparent;
   }
+
+  .menu {
+    flex-direction: row;
+  }
 }

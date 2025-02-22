@@ -62,12 +62,11 @@
 @media (min-width: 920px) {
   .container__imagem {
     position: absolute;
-    background-image: url("assets/images/arvore-fundo.png");
+    background-image: url("assets/images/arvore-fundo1.png");
     background-repeat: no-repeat;
-    background-size: contain;
     height: 100vh;
     right: 40px;
-    top: -50px;
+    top: 0px;
     width: 50%;
   }
 }

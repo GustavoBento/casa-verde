@@ -12,12 +12,17 @@ export default function AssinaturaNewsletter() {
           e assine nossa newsletter para saber das novidades da marca.
         </p>
         <div className={styles.container__input}>
-            <input className={styles.input__email} type="email" placeholder="Insira seu e-mail" />
+          <form>
+            <input
+              className={styles.input__email}
+              type="email"
+              placeholder="Insira seu e-mail"
+            />
             <button className={styles.btn}>Assinar newsletter</button>
+          </form>
         </div>
       </div>
-      <div className={styles.container__imagem}>
-      </div>
+      <div className={styles.container__imagem}></div>
     </section>
   );
 }

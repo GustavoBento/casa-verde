@@ -1,6 +1,14 @@
+import { useState } from "react";
 import styles from "./AssinaturaNewsletter.module.css";
 
 export default function AssinaturaNewsletter() {
+  const [email, setEmail] = useState<string>('')
+
+  function enviarEmail(evento: React.FormEvent<HTMLFormElement>) {
+    evento.preventDefault();
+    alert(`Obrigado pela sua assinatura, você receberá nossas novidades no e-mail ${email} `)
+  }
+  
   return (
     <section className={styles.container}>
       <div className={styles.container__texto}>
@@ -12,13 +20,16 @@ export default function AssinaturaNewsletter() {
           e assine nossa newsletter para saber das novidades da marca.
         </p>
         <div className={styles.container__input}>
-          <form>
+          <form onSubmit={enviarEmail}>
             <input
               className={styles.input__email}
               type="email"
               placeholder="Insira seu e-mail"
+              required
+              value={email}
+              onChange={(evento) => setEmail(evento.target.value)}
             />
-            <button className={styles.btn}>Assinar newsletter</button>
+            <button type="submit" className={styles.btn}>Assinar newsletter</button>
           </form>
         </div>
       </div>

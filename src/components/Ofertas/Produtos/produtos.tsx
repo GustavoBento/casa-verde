@@ -9,7 +9,7 @@ interface Props {
 export default function Produtos({ imagem, nomePlanta, valorPlanta }: Props) {
   return (
     <div className={styles.container}>
-      <img src={imagem} alt="Imagem da planta em oferta" />
+      <img className={styles.produtos} src={imagem} alt="Imagem da planta em oferta" />
       <div className={styles.container__produto}>
         <h3 className={`titulo ${styles.titulo}`}>{nomePlanta}</h3>
         <h4 className={`subtitulo ${styles.subtitulo}`}>{valorPlanta}</h4>

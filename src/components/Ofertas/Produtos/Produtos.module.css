@@ -1,12 +1,8 @@
 .container {
   display: flex;
-  gap: 5px;
+  align-items: center;
   background-color: #ffffff;
   max-width: 379px;
-}
-
-.container__produto {
-  padding-right: 20px;
 }
 
 .titulo {
@@ -15,6 +11,10 @@
 
 .subtitulo, .paragrafo {
   font-size: 16px;
+}
+
+.produtos {
+  width: 50%;
 }
 
 .paragrafo {

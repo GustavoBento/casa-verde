@@ -3,6 +3,12 @@
   align-items: center;
   background-color: #ffffff;
   max-width: 379px;
+  gap: 10px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
 }
 
 .titulo {

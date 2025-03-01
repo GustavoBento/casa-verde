@@ -8,6 +8,10 @@
   background-color: #ffcb47;
 }
 
+.btn__menu {
+  display: none;
+}
+
 .menu {
   display: flex;
   margin-top: 20px;
@@ -28,6 +32,17 @@
 
 .menu__item__barra {
   padding: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+  
+  .btn__menu {
+    display: block;
+  }
+  
 }
 
 @media (min-width: 920px) {

@@ -11,6 +11,18 @@
   gap: 10px;
 }
 
+.container__filtroEOfertas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ofertas {
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+
 .filtro span {
   font-size: 40px;
 }
@@ -19,7 +31,7 @@
   background-color: #344760;
   font-size: 18px;
   color: #b6bdc7;
-  width: 250px;
+  width: 150px;
   padding:  10px;
   border-radius: 7px;
   border: none;

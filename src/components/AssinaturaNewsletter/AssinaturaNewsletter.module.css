@@ -40,7 +40,7 @@
 .input__email {
   width: 60%;
   border: 1px solid rgba(0, 0, 0, 0.39);
-  padding: 13px 15px;
+  padding: 14px 15px;
 }
 
 .input__email:focus {

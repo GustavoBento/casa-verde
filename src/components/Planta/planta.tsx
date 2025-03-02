@@ -7,7 +7,7 @@ export default function Planta() {
   return (
     <section className={styles.container}>
       <div>
-        <img src={mask} alt="Imagem de uma planta mask" />
+        <img className={styles.imagem} src={mask} alt="Imagem de uma planta mask" />
       </div>
       <div className={styles.conteudo}>
         <h4 className={`subtitulo ${styles.subtitulo}`}>Como conseguir</h4>

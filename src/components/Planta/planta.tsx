@@ -6,7 +6,7 @@ import mask from "assets/images/planta-mask.png";
 export default function Planta() {
   return (
     <section className={styles.container}>
-      <div>
+      <div className={styles.container__imagem}>
         <img className={styles.imagem} src={mask} alt="Imagem de uma planta mask" />
       </div>
       <div className={styles.conteudo}>

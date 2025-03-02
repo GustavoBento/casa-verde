@@ -20,7 +20,7 @@
   font-size: 42px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -30,4 +30,16 @@
   .imagem {
     max-width: 100%;
   }
+}
+
+@media (min-width: 600px) and (max-width: 920px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container__imagem {
+    margin: 0 auto;
+  }
+  
 }

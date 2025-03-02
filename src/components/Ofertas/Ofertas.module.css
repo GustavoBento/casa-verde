@@ -11,18 +11,6 @@
   gap: 10px;
 }
 
-.container__filtroEOfertas {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-}
-
-.ofertas {
-  margin: 0 auto;
-  transform: translateX(-50%);
-}
-
 .filtro span {
   font-size: 40px;
 }
@@ -44,7 +32,7 @@
 
 .titulo {
   font-size: 82px;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 
 .container__produtos {
@@ -52,4 +40,10 @@
   flex-wrap: wrap;
   gap: 20px;
   margin: 25px 0;
+}
+
+@media (max-width: 768px) {
+  .container__produtos {
+    flex-direction: column;
+  }
 }

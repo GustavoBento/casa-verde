@@ -1,9 +1,10 @@
 .container {
+  background-color: #ffffff;
   display: flex;
   align-items: center;
-  background-color: #ffffff;
-  max-width: 379px;
   gap: 10px;
+  max-width: 379px;
+  box-shadow: 10px 10px 30px 0px #0000000f;
 }
 
 .conteudo {

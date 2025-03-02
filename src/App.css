@@ -4,6 +4,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: rgba(196, 196, 196, 0.2);
   box-sizing: border-box;
   font-family: "Montserrat", serif;
   color: #202020;
@@ -25,7 +26,6 @@ main {
 
 @media (min-width: 920px) {
   body {
-    background-color: rgba(196, 196, 196, 0.2);
     background-image: url("assets/images/fundo-amarelo.png");
     background-repeat: no-repeat;
     background-position: right top;

@@ -16,22 +16,18 @@ export default function Ofertas() {
 
   return (
     <section className={styles.container}>
-      <div className={styles.container__filtroEOfertas}>
-        <div className={styles.filtro}>
-          <span className="material-symbols-outlined">filter_alt</span>
-          <select
-            value={filtro}
-            onChange={(event) => setFiltro(event.target.value)}
-          >
-            <option value="padrao">Padrão</option>
-            <option value="nome">Nome</option>
-            <option value="preco">Preço</option>
-          </select>
-        </div>
-        <div className={styles.ofertas}>
-          <h4 className={`subtitulo ${styles.subtitulo}`}>Conheça nossas</h4>
-          <h2 className={`titulo ${styles.titulo}`}>ofertas</h2>
-        </div>
+      <h4 className={`subtitulo ${styles.subtitulo}`}>Conheça nossas</h4>
+      <h2 className={`titulo ${styles.titulo}`}>ofertas</h2>
+      <div className={styles.filtro}>
+        <span className="material-symbols-outlined">filter_alt</span>
+        <select
+          value={filtro}
+          onChange={(event) => setFiltro(event.target.value)}
+        >
+          <option value="padrao">Padrão</option>
+          <option value="nome">Nome</option>
+          <option value="preco">Preço</option>
+        </select>
       </div>
       <div className={styles.container__produtos}>
         {produtosFiltrados.map((produto) => {

@@ -44,6 +44,14 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .filtro {
+    margin-bottom: 40px;
+  }
+
   .container__produtos {
     flex-direction: column;
   }

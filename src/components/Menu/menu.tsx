@@ -37,7 +37,6 @@ export default function Menu() {
         </ul>
       </nav>
       <span
-        /* style={{ display: menu ? "none" : "block" }} */
         onClick={abrirMenu}
         className={`material-symbols-outlined ${styles.btn__menu} ${menu ? "" : styles.active}`}
       >

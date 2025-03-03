@@ -47,6 +47,7 @@
 }
 
 .btn__menu {
+  cursor: pointer;
   display: none;
   font-size: 32px;
   z-index: 3;
@@ -58,6 +59,8 @@
 
 .fechar {
   color: #ffcb47;
+  position: fixed;
+  right: 20px;
 }
 
 .overlay {
